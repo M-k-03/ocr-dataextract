@@ -1,1 +1,1 @@
-worker: python processWebhook.py
+web: gunicorn processWebhook:app 
