@@ -1,1 +1,1 @@
-web: gunicorn processWebhook:app 
+web: python easyocr.py
